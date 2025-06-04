@@ -7,3 +7,6 @@ class PostModel(models.Model):
     title = models.CharField(max_length=30)
     description = models.TextField(blank=False)
     post_image = models.ImageField(upload_to='post_images')
+
+
+print("this is new branch")
